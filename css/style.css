@@ -23,15 +23,20 @@
 
 	body,input,textarea,select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-weight: 300;
+		font-weight: 100;
 		font-size: 18pt;
 		line-height: 1.75em;
-		color: #39454b;
+		color: #434148;
 		letter-spacing: 0.5px;
 	}
 
-	h1,h2,h3,h4,h5,h6 {
+	h2 {
 		font-weight: 900;
+		color: inherit;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-weight: 100;
 		color: inherit;
 	}
 	
@@ -41,7 +46,7 @@
 		}
 		
 	h2 {
-		font-size: 2.25em;
+		font-size: 28pt;
 		letter-spacing: -2px;
 		line-height: 1.25em;
 	}
@@ -436,7 +441,7 @@
 
 			.button.style2 {
 				background-color: transparent;
-				border: solid 2px #e5e6e7;
+				border: solid 0px #e5e6e7;
 				color: inherit;
 			}
 
@@ -1201,7 +1206,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #39454b;
+		background: #434148;
 		color: #999;
 		color: rgba(185,186,187,0.5);
 		overflow: hidden;
